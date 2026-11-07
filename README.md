@@ -10,10 +10,10 @@
 
 
 ### Relationships
-An **INSTRUCTOR**<ins>teaches</ins> one or multiple **COURSES**, each **COURSE** is <ins>taught</ins> by exactly one **INSTRUCTOR**
-**STUDENT**<ins>takes</ins>**COURSE**
-**STUDENT**<ins>fills</ins>**SEAT**
-**COURSE**<ins>has</ins>**SECTION**
-**PROFESSOR**<ins>teaches</ins>**SECTION**
+An **INSTRUCTOR** <ins>teaches</ins> one or multiple **COURSES**, each **COURSE** is <ins>taught</ins> by exactly one **INSTRUCTOR**.
+A **STUDENT** <ins>takes</ins> one or multiple **COURSES**, each **COURSE** is <ins>taken</ins> by one or multiple **STUDENTS**.
+A **STUDENT** <ins>fills</ins> exactly one **SEAT**, each **SEAT** is <ins>filled</ins> by exactly one **STUDENT**.
+A **COURSE** <ins>has</ins> multiple **SECTIONS**, each **SECTION** is <ins>had</ins> by multiple **COURSES**.
+A **PROFESSOR**<ins>teaches</ins> zero, one, or multiple **SECTIONS**, each **SECTION** is <ins>taught</ins> by exactly one **PROFESSOR**.
 
 ### Assumptions
