@@ -27,5 +27,3 @@ A **STUDENT** <ins>fills</ins> exactly one **SEAT**, each **SEAT** is <ins>fille
 A **COURSE** <ins>has</ins> multiple **SECTIONS**, each **SECTION** is <ins>had</ins> by multiple **COURSES**. A **COURSE_SECTION_LIST** <ins>has</ins> exactly one **COURSE**, and is <ins>had</ins> by exactly one **SECTION**.
 
 A **PROFESSOR**<ins>teaches</ins> zero, one, or multiple **SECTIONS**, each **SECTION** is <ins>taught</ins> by exactly one **PROFESSOR**.
-
-### Assumptions
