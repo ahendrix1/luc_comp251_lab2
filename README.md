@@ -1,4 +1,6 @@
 ## School ER Business Rules
+<img width="993" height="838" alt="image" src="https://github.com/user-attachments/assets/7232d7e9-dda5-44a7-9c2a-3a7cf8e55de1" />
+
 
 ### Entities
 **INSTRUCTOR** - An Instructor must teach at least one Course, but can teach multiple. Each Instructor is identified by an Instructor_no, and has an instructor_name and instructor_faculty status recorded.
